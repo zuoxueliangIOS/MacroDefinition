@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "MacroDefinition"
-s.version      = "1.0.2"
+s.version      = "1.0.3"
 s.summary      = "iOS常用宏定义库"
 s.description  = "iOS常用宏定义库集合"
 s.homepage     = "https://github.com/zuoxueliangIOS/MacroDefinition"
