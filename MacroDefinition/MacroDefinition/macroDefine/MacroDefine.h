@@ -65,8 +65,8 @@
 //是否为iOS11及以上系统
 #define IOS11 ([[UIDevice currentDevice].systemVersion doubleValue] >= 11.0)
 //比例宽和高(以6s为除数)
-#define kActureHeight(height)  roundf(height/375.0 * SCREEN_HEIGHT)
-#define kActureWidth(Width)  roundf(Width/812.0 * SCREEN_WIDTH)
+#define kActureHeight(height)  roundf(height/375.0 * SCREEN_WIDTH)
+#define kActureWidth(Width)  roundf(Width/812.0 * SCREEN_HEIGHT)
 //状态栏的高度
 #define kStatusBarHeight [[UIApplication sharedApplication] statusBarFrame].size.height
 //导航栏的高度
